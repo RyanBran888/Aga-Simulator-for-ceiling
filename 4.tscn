@@ -1,0 +1,149 @@
+[gd_scene format=3 uid="uid://c8qw3xi4rb241"]
+
+[ext_resource type="Texture2D" uid="uid://cwe8k7h4nv1qi" path="res://agagaga.png" id="1_w525c"]
+[ext_resource type="Script" uid="uid://bk1n0ix003d7e" path="res://Button3.cs" id="2_shfhs"]
+[ext_resource type="Script" uid="uid://brp156bs6a6pm" path="res://label6.cs" id="3_27j52"]
+[ext_resource type="AudioStream" uid="uid://c4wd7cwn14xm5" path="res://evil aga sound.mp3" id="4_qw8xh"]
+
+[node name="Node2D" type="Node2D" unique_id=406265053]
+
+[node name="Button" type="Button" parent="." unique_id=750366748]
+offset_left = 487.0
+offset_top = 247.0
+offset_right = 623.0
+offset_bottom = 383.0
+icon = ExtResource("1_w525c")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("2_shfhs")
+
+[node name="Label" type="Label" parent="Button" unique_id=963557995]
+layout_mode = 0
+offset_left = -22.0
+offset_top = -172.0
+offset_right = 84.0
+offset_bottom = -128.0
+text = "Agas: "
+script = ExtResource("3_27j52")
+
+[node name="Camera2D" type="Camera2D" parent="Button" unique_id=1499944010]
+position = Vector2(87, 72)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1472324850]
+stream = ExtResource("4_qw8xh")
+autoplay = true
+parameters/looping = true
+
+[node name="Button2" type="Button" parent="." unique_id=1520204432]
+offset_left = 25.0
+offset_top = 77.0
+offset_right = 141.0
+offset_bottom = 131.0
+text = "Double Clicks!
+Agas: -100"
+
+[node name="Button3" type="Button" parent="." unique_id=970241909]
+offset_left = 28.0
+offset_top = 166.0
+offset_right = 144.0
+offset_bottom = 220.0
+text = "Aga Clicker #1
+(- 1 aps)
+Agas: -1000"
+
+[node name="Button4" type="Button" parent="." unique_id=2040800549]
+offset_left = 34.0
+offset_top = 260.0
+offset_right = 151.0
+offset_bottom = 337.0
+text = "Aga Clicker #2
+(-2 aps)
+Agas: - 2000"
+
+[node name="Button5" type="Button" parent="." unique_id=1905759759]
+offset_left = 29.0
+offset_top = 376.0
+offset_right = 146.0
+offset_bottom = 430.0
+text = "Aga Clicker #3
+(-3 aps)
+Agas: - 3000"
+
+[node name="Button6" type="Button" parent="." unique_id=618511986]
+offset_left = 32.0
+offset_top = 480.0
+offset_right = 149.0
+offset_bottom = 557.0
+text = "Aga Clicker #4
+(-4 aps)
+Agas: - 4000"
+
+[node name="Button7" type="Button" parent="." unique_id=1592157288]
+offset_left = 965.0
+offset_top = 64.0
+offset_right = 1082.0
+offset_bottom = 141.0
+text = "Aga Clicker #5
+(-5 aps)
+Agas: - 5000"
+
+[node name="Button8" type="Button" parent="." unique_id=261046475]
+offset_left = 972.0
+offset_top = 180.0
+offset_right = 1089.0
+offset_bottom = 257.0
+text = "Aga Clicker #6
+(-6 aps)
+Agas: - 6000"
+
+[node name="Button9" type="Button" parent="." unique_id=1818549967]
+offset_left = 969.0
+offset_top = 302.0
+offset_right = 1086.0
+offset_bottom = 379.0
+text = "Aga Clicker #7
+(-7 aps)
+Agas: - 7000"
+
+[node name="Button10" type="Button" parent="." unique_id=2115299709]
+offset_left = 975.0
+offset_top = 409.0
+offset_right = 1092.0
+offset_bottom = 486.0
+text = "Aga Clicker #8
+(-8 aps)
+Agas: - 8000"
+
+[node name="Button11" type="Button" parent="." unique_id=374814047]
+offset_left = 981.0
+offset_top = 507.0
+offset_right = 1098.0
+offset_bottom = 584.0
+text = "Aga Clicker #9
+(-9 aps)
+Agas: - 9000"
+
+[node name="Button12" type="Button" parent="." unique_id=987304258]
+offset_left = 465.0
+offset_top = 521.0
+offset_right = 663.0
+offset_bottom = 598.0
+text = "S̸̹̬̠̈̈́͋̏͝ͅạ̷̬͉͗̊̈́̔͑̀͒̅̽̓v̴̧̨̛̞̟̗̬̲̳͚̥̤͂̇͛͋̀̉͘̕e̶̢̨̯͎͇̪̗̻̻̩͚̐͐̅͌̑̆͒͑ ̶̗̗̭̞̈̇̑͆̄́͘ͅH̷̢̞̼͍̳́͋̀͛̇̑̅ͅi̶̢̞̫̦̱͈̬̜̜̊͐͐̐͗̽̆̚ͅm̴̢̡͈̮͕͚̺͓̳͚̫͛̓̇͊̓͑̋̕͠
+̸̺̟̈̓̏͑͘ͅ
+̷̡͓͉̰̥͈̑
+̵̼̮͙͙̺͔͍̹̲̥̘̂̍͘
+̵̙͇͓̖͖͉̺͑͑̽͒̐̇͂͜ͅ
+̶̧̧͍̜͈̬̥͍̓̒̌̀͘-̵̯̙̞̦̣̐̾͂̎1̴̡̫̪͂͌̿̒̂̈̄͛͝ͅ,̴̖̍0̶̛̞̿̈͆̏͗̕ͅ0̸͓̟̜̭̝̇͛̓̽̕0̷̛̗̱̤͚̺͛͛̓̂̅͑͑̌͑,̸̨̡͉͔͚̱̮̩͎̱̜̌̏̆͒̃̈̚̕0̸̬͚̲͈̻̳̣͍̚0̵̫͆̃͒͛̐̃̾͗̍0̷̧̦̝͎̳̕ ̵͇̱̘̬̼̙̼̬̟̳̽̌͜A̶͎͐̓̈́̄͌͠ģ̴̬̥͖͇̤̻̭̥̟́̋͜͠a̷͓̥͚̺̺̔͐̊̇̔s̷͙̥͐̊̆̚"
+
+[connection signal="pressed" from="Button" to="Button" method="push"]
+[connection signal="pressed" from="Button2" to="Button" method="dubClick"]
+[connection signal="pressed" from="Button3" to="Button" method="agaOne"]
+[connection signal="pressed" from="Button4" to="Button" method="agaTwo"]
+[connection signal="pressed" from="Button5" to="Button" method="agaThree"]
+[connection signal="pressed" from="Button6" to="Button" method="agaFour"]
+[connection signal="pressed" from="Button7" to="Button" method="agaFive"]
+[connection signal="pressed" from="Button8" to="Button" method="agaSix"]
+[connection signal="pressed" from="Button9" to="Button" method="agaSeven"]
+[connection signal="pressed" from="Button10" to="Button" method="agaEight"]
+[connection signal="pressed" from="Button11" to="Button" method="agaNine"]
+[connection signal="pressed" from="Button12" to="Button" method="freeHim"]

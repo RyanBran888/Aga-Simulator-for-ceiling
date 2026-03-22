@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://ccqgvhvdmrlqj"]
+
+[ext_resource type="Texture2D" uid="uid://cwe8k7h4nv1qi" path="res://agagaga.png" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://cllbygy4n54oj" path="res://Buttonn.cs" id="2_0e48y"]
+[ext_resource type="Script" uid="uid://dvna1yvgulbs8" path="res://Label.cs" id="3_epypp"]
+[ext_resource type="Script" uid="uid://c62hpmj31b1pc" path="res://One.cs" id="4_0hol4"]
+[ext_resource type="Script" uid="uid://5jptadne3nxx" path="res://Two.cs" id="5_q6r6c"]
+[ext_resource type="Script" uid="uid://hngfunm2fiwy" path="res://Gr.cs" id="6_4d7sh"]
+[ext_resource type="Script" uid="uid://br5bmwcksw1ls" path="res://Label4.cs" id="7_hqns4"]
+[ext_resource type="Texture2D" uid="uid://b5vpoyhr5y0ow" path="res://gaga (1).png" id="7_ir8iy"]
+[ext_resource type="Script" uid="uid://casqwr1k1epqa" path="res://Button2.cs" id="8_hqns4"]
+[ext_resource type="Script" uid="uid://co2ovt1jnrwqf" path="res://Label5.cs" id="9_x0ka3"]
+[ext_resource type="AudioStream" uid="uid://cjtlkvfd0k4sa" path="res://meowwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.mp3" id="11_hqns4"]
+
+[node name="Node2D" type="Node2D" unique_id=160783888]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=791614584]
+position = Vector2(576, 323)
+
+[node name="Button" type="Button" parent="." unique_id=1423579406]
+offset_left = 487.0
+offset_top = 247.0
+offset_right = 623.0
+offset_bottom = 383.0
+icon = ExtResource("1_wtcfe")
+script = ExtResource("2_0e48y")
+
+[node name="Label" type="Label" parent="Button" unique_id=227010186]
+layout_mode = 0
+offset_left = -22.0
+offset_top = -172.0
+offset_right = 84.0
+offset_bottom = -128.0
+text = "Agas: "
+script = ExtResource("3_epypp")
+
+[node name="Label" type="Label" parent="." unique_id=1549277671]
+offset_left = 55.0
+offset_top = 190.0
+offset_right = 122.0
+offset_bottom = 248.0
+text = "Please stop clicking me :("
+script = ExtResource("4_0hol4")
+
+[node name="Label2" type="Label" parent="." unique_id=1246714905]
+offset_left = 57.0
+offset_top = 325.0
+offset_right = 249.0
+offset_bottom = 383.0
+text = "I SAID STOP"
+script = ExtResource("5_q6r6c")
+
+[node name="Label3" type="Label" parent="." unique_id=1134862067]
+offset_left = 803.0
+offset_top = 170.0
+offset_right = 900.0
+offset_bottom = 241.0
+text = "GRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+WHAT'S WRONG WITH YOU >:("
+script = ExtResource("6_4d7sh")
+
+[node name="Label4" type="Label" parent="." unique_id=1886578998]
+offset_left = 921.0
+offset_top = 496.0
+offset_right = 1080.0
+offset_bottom = 545.0
+text = "CLick him instead >:("
+script = ExtResource("7_hqns4")
+
+[node name="Button2" type="Button" parent="." unique_id=2069226961]
+offset_left = 728.0
+offset_top = 500.0
+offset_right = 773.0
+offset_bottom = 543.0
+icon = ExtResource("7_ir8iy")
+expand_icon = true
+script = ExtResource("8_hqns4")
+
+[node name="Label5" type="Label" parent="Button2" unique_id=172029902]
+layout_mode = 0
+offset_left = -5.0
+offset_top = -116.0
+offset_right = 92.0
+offset_bottom = -81.0
+text = "Gogo gagas: "
+script = ExtResource("9_x0ka3")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=10317730]
+stream = ExtResource("11_hqns4")
+autoplay = true
+parameters/looping = true
+
+[connection signal="pressed" from="Button" to="Button" method="push"]
+[connection signal="pressed" from="Button2" to="Button2" method="p"]

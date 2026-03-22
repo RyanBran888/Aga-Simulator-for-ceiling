@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://car1ndrvmm3ns"]
+
+[ext_resource type="Texture2D" uid="uid://cwe8k7h4nv1qi" path="res://agagaga.png" id="1_oeoep"]
+
+[node name="Agagaga" type="Sprite2D" unique_id=24887796]
+position = Vector2(6, 427)
+scale = Vector2(5.125, 5.140625)
+texture = ExtResource("1_oeoep")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=698476208]

@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://ce0x7jq0s085f"]
+
+[ext_resource type="Texture2D" uid="uid://del8qi70nc8fh" path="res://image (1).png" id="1_st5yy"]
+[ext_resource type="Texture2D" uid="uid://bmub4o4bcwn1g" path="res://moving-nodes-between-projects-in-godot-4-v0-24htepo04d2c1.webp" id="2_st5yy"]
+[ext_resource type="Script" uid="uid://b7uufbjaejqg8" path="res://Bebe.cs" id="3_gw15y"]
+
+[node name="Node2D" type="Node2D" unique_id=444082254]
+
+[node name="Image(1)" type="Sprite2D" parent="." unique_id=798936000]
+position = Vector2(-303, 303)
+scale = Vector2(2, 2)
+texture = ExtResource("1_st5yy")
+
+[node name="Camera2D" type="Camera2D" parent="Image(1)" unique_id=318380515]
+
+[node name="2264384538b33739c444b498e84Af57Eaea2e0660" type="Sprite2D" parent="." unique_id=1357486854]
+position = Vector2(-292.5, 218.5)
+texture = ExtResource("2_st5yy")
+
+[node name="Button" type="Button" parent="." unique_id=1904464334]
+offset_left = -334.0
+offset_top = 251.0
+offset_right = -260.0
+offset_bottom = 282.0
+text = "Retry"
+script = ExtResource("3_gw15y")
+
+[connection signal="pressed" from="Button" to="Button" method="a"]
